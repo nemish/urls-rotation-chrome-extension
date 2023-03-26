@@ -1,0 +1,21 @@
+html,
+body {
+  height: 150px;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 12px;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}

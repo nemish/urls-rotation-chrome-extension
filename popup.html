@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="rotate.css">
+    </head>
+    <body>
+        <div class="container">
+            <label><h3>Insert urls into text area one item per line:</h3></label>
+            <div class="mt-4">
+                <textarea id="urls-list" name="urls-list" rows="4" cols="50"></textarea>
+            </div>
+            <div class="mt-4">
+                <label>Rotate interval</label>
+                <select id="rotate-interval" name="rotate-interval">
+                    <option value="30sec">30 seconds</option>
+                    <option value="1min">1 minute</option>
+                    <option value="3min">3 minutes</option>
+                    <option value="5min" selected>5 minutes</option>
+                    <option value="10min">5 minutes</option>
+                </select>
+            </div>
+            <div class="mt-4"><button id="submit-button" type="button">Start rotation</button></div>
+        </div>
+        <script src="rotate.js"></script>
+    </body>
+</html>
