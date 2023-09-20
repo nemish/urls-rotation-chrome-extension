@@ -33,6 +33,7 @@ chrome.storage.sync.get("rotate-in-process", (value) => {
 });
 
 const ROTATION_INTERVALS_MAP = {
+  "5sec": 5000,
   "30sec": 30000,
   "1min": 60000,
   "3min": 180000,
